@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contador</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="formulario">
+        <h1>CONTADOR</h1>
+        <form>
+            <div class="perg">
+                <div class="numero1">
+                    <label for="inicio">De qual número partirá a contagem?</label>
+                    <input type="number" id="inicio" name="ini">
+                </div> <br>
+                <div class="numero2">
+                    <label for="final">Até qual número você deseja contar?</label>
+                    <input type="number" id="final" name="fin">
+                </div> <br>
+                <div class="numero3">
+                    <label for="passo">Qual é o intervalo?</label>
+                    <input type="number" id="passo" name="pas"> <br>
+                </div>
+                <input type="button" value="Contar" onclick="clicar()">
+                <div id="resp"></div>
+            </div>
+    </section>
+    </form>
+    <script src="scripts.js"></script>
+</body>
+</html>
